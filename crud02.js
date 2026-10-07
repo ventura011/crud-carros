@@ -679,7 +679,7 @@ function verDesempenho() {
 
 
 
-function flashcardComMaisErros() {
+function flashcardComMaisErrados() {
 
 
 

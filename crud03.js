@@ -385,7 +385,7 @@ function visualizarPedido() {
         id = +id
 
         for (let i = 0; i < pedidos.length; i++) {
-            if (pedidos[i].id === id ) {
+            if (pedidos[i].id === id) {
                 pedidoEncontrado = pedidos[i]
             }
         }
@@ -401,10 +401,10 @@ function visualizarPedido() {
         console.log("=================")
 
         for (let i = 0; pedidoEncontrado.itens.length; i++) {
-        console.log(pedidoEncontrado.itens.nome)
-        console.log("Quantidade: ", pedidoEncontrado.quantidade)
-        console.log("Preço: ", pedidoEncontrado.preco)
-        console.log("Subtotal: ", pedidoEncontrado.subTotal)
+            console.log(pedidoEncontrado.itens.nome)
+            console.log("Quantidade: ", pedidoEncontrado.quantidade)
+            console.log("Preço: ", pedidoEncontrado.preco)
+            console.log("Subtotal: ", pedidoEncontrado.subTotal)
         }
 
 
