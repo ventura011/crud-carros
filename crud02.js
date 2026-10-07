@@ -98,7 +98,7 @@ function mostrarMenu() {
       } else if (opcao === "9") {
           verDesempenho()
       } else if (opcao === "10") {
-          flashcardComMaisErros()
+          flashcardComMaisErrados()
       } else if (opcao === "11") {
           estatisticasGerais()
       } else if (opcao === "12") {
